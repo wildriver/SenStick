@@ -102,7 +102,7 @@ class DataGraphView : UIView {
             }
             // パスを追加
             context.addPath(drawPath)
-            context.setLineWidth(2)
+            context.setLineWidth(1)
             context.setStrokeColor(pathColor[index])
             context.strokePath()
         }
